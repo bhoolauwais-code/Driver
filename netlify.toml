@@ -4,4 +4,5 @@
   functions = "netlify/functions"
 
 [build.environment]
-  NODE_VERSION = "20"
+  # @netlify/blobs 11 needs Node 22.12 or newer
+  NODE_VERSION = "22"
