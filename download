@@ -1,0 +1,11 @@
+# Local Netlify folder
+.netlify
+
+# Installed by npm install; Netlify reinstalls them on every build
+node_modules/
+
+# Built from src/ on every deploy
+public/
+
+# Left behind by netlify dev; the site does not use it
+deno.lock

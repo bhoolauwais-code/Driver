@@ -1,0 +1,15 @@
+{
+  "name": "driver-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Driver - car game with driver accounts",
+  "dependencies": {
+    "@netlify/blobs": "^11.0.3"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "npm run build && npx netlify dev",
+    "deploy": "npm run build && npx netlify deploy --build --prod"
+  }
+}
